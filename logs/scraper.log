@@ -1,0 +1,144 @@
+2026-10-06 19:17:24,647 | INFO | scrapers.books_scraper | Books page 1: https://books.toscrape.com/
+2026-10-06 19:17:24,647 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/
+2026-10-06 19:17:24,652 | WARNING | urllib3.connectionpool | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='books.toscrape.com', port=443): Failed to resolve 'books.toscrape.com' ([Errno -3] Temporary failure in name resolution)")': /
+2026-10-06 19:17:31,658 | WARNING | urllib3.connectionpool | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='books.toscrape.com', port=443): Failed to resolve 'books.toscrape.com' ([Errno -3] Temporary failure in name resolution)")': /
+2026-10-06 19:17:35,661 | WARNING | urllib3.connectionpool | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='books.toscrape.com', port=443): Failed to resolve 'books.toscrape.com' ([Errno -3] Temporary failure in name resolution)")': /
+2026-10-06 19:17:35,662 | ERROR | scrapers.books_scraper | Books page failed: https://books.toscrape.com/ | HTTPSConnectionPool(host='books.toscrape.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='books.toscrape.com', port=443): Failed to resolve 'books.toscrape.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-10-06 19:17:35,662 | INFO | scrapers.books_scraper | Books raw records: 0
+2026-10-06 19:17:35,663 | INFO | scrapers.quotes_scraper | Quotes page 1: https://quotes.toscrape.com/
+2026-10-06 19:17:35,663 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/
+2026-10-06 19:17:40,672 | WARNING | urllib3.connectionpool | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='quotes.toscrape.com', port=443): Failed to resolve 'quotes.toscrape.com' ([Errno -3] Temporary failure in name resolution)")': /
+2026-10-06 19:17:42,673 | WARNING | urllib3.connectionpool | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='quotes.toscrape.com', port=443): Failed to resolve 'quotes.toscrape.com' ([Errno -3] Temporary failure in name resolution)")': /
+2026-10-06 19:17:46,676 | WARNING | urllib3.connectionpool | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='quotes.toscrape.com', port=443): Failed to resolve 'quotes.toscrape.com' ([Errno -3] Temporary failure in name resolution)")': /
+2026-10-06 19:17:46,679 | ERROR | scrapers.quotes_scraper | Quotes page failed: https://quotes.toscrape.com/ | HTTPSConnectionPool(host='quotes.toscrape.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='quotes.toscrape.com', port=443): Failed to resolve 'quotes.toscrape.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-10-06 19:17:46,680 | INFO | scrapers.quotes_scraper | Quotes raw records: 0
+2026-10-06 19:17:46,680 | INFO | root | Final records: 0
+2026-10-06 19:17:46,680 | INFO | root | Duplicates removed: 0
+2026-10-06 19:17:46,680 | INFO | root | Output CSV: /mnt/data/realisieren_scraping_assignment/output/final_dataset.csv
+2026-10-06 19:17:46,681 | INFO | root | Summary JSON: /mnt/data/realisieren_scraping_assignment/output/summary_report.json
+2026-10-07 01:06:12,077 | INFO | scrapers.books_scraper | Books page 1: https://books.toscrape.com/
+2026-10-07 01:06:12,077 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/
+2026-10-07 01:06:14,507 | INFO | scrapers.books_scraper | Books page 2: https://books.toscrape.com/catalogue/page-2.html
+2026-10-07 01:06:14,509 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-2.html
+2026-10-07 01:06:15,631 | INFO | scrapers.books_scraper | Books page 3: https://books.toscrape.com/catalogue/page-3.html
+2026-10-07 01:06:15,631 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-3.html
+2026-10-07 01:06:16,759 | INFO | scrapers.books_scraper | Books page 4: https://books.toscrape.com/catalogue/page-4.html
+2026-10-07 01:06:16,759 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-4.html
+2026-10-07 01:06:17,886 | INFO | scrapers.books_scraper | Books page 5: https://books.toscrape.com/catalogue/page-5.html
+2026-10-07 01:06:17,886 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-5.html
+2026-10-07 01:06:19,011 | INFO | scrapers.books_scraper | Books page 6: https://books.toscrape.com/catalogue/page-6.html
+2026-10-07 01:06:19,011 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-6.html
+2026-10-07 01:06:20,127 | INFO | scrapers.books_scraper | Books page 7: https://books.toscrape.com/catalogue/page-7.html
+2026-10-07 01:06:20,127 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-7.html
+2026-10-07 01:06:21,257 | INFO | scrapers.books_scraper | Books page 8: https://books.toscrape.com/catalogue/page-8.html
+2026-10-07 01:06:21,257 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-8.html
+2026-10-07 01:06:22,389 | INFO | scrapers.books_scraper | Books page 9: https://books.toscrape.com/catalogue/page-9.html
+2026-10-07 01:06:22,389 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-9.html
+2026-10-07 01:06:23,512 | INFO | scrapers.books_scraper | Books page 10: https://books.toscrape.com/catalogue/page-10.html
+2026-10-07 01:06:23,512 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-10.html
+2026-10-07 01:06:24,335 | INFO | scrapers.books_scraper | Books page 11: https://books.toscrape.com/catalogue/page-11.html
+2026-10-07 01:06:24,335 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-11.html
+2026-10-07 01:06:25,463 | INFO | scrapers.books_scraper | Books page 12: https://books.toscrape.com/catalogue/page-12.html
+2026-10-07 01:06:25,463 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-12.html
+2026-10-07 01:06:26,588 | INFO | scrapers.books_scraper | Books page 13: https://books.toscrape.com/catalogue/page-13.html
+2026-10-07 01:06:26,588 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-13.html
+2026-10-07 01:06:27,430 | INFO | scrapers.books_scraper | Books page 14: https://books.toscrape.com/catalogue/page-14.html
+2026-10-07 01:06:27,430 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-14.html
+2026-10-07 01:06:28,532 | INFO | scrapers.books_scraper | Books page 15: https://books.toscrape.com/catalogue/page-15.html
+2026-10-07 01:06:28,532 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-15.html
+2026-10-07 01:06:29,663 | INFO | scrapers.books_scraper | Books page 16: https://books.toscrape.com/catalogue/page-16.html
+2026-10-07 01:06:29,663 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-16.html
+2026-10-07 01:06:30,771 | INFO | scrapers.books_scraper | Books page 17: https://books.toscrape.com/catalogue/page-17.html
+2026-10-07 01:06:30,771 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-17.html
+2026-10-07 01:06:31,913 | INFO | scrapers.books_scraper | Books page 18: https://books.toscrape.com/catalogue/page-18.html
+2026-10-07 01:06:31,913 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-18.html
+2026-10-07 01:06:32,738 | INFO | scrapers.books_scraper | Books page 19: https://books.toscrape.com/catalogue/page-19.html
+2026-10-07 01:06:32,738 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-19.html
+2026-10-07 01:06:33,553 | INFO | scrapers.books_scraper | Books page 20: https://books.toscrape.com/catalogue/page-20.html
+2026-10-07 01:06:33,553 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-20.html
+2026-10-07 01:06:34,340 | INFO | scrapers.books_scraper | Books page 21: https://books.toscrape.com/catalogue/page-21.html
+2026-10-07 01:06:34,340 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-21.html
+2026-10-07 01:06:35,187 | INFO | scrapers.books_scraper | Books page 22: https://books.toscrape.com/catalogue/page-22.html
+2026-10-07 01:06:35,187 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-22.html
+2026-10-07 01:06:36,016 | INFO | scrapers.books_scraper | Books page 23: https://books.toscrape.com/catalogue/page-23.html
+2026-10-07 01:06:36,016 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-23.html
+2026-10-07 01:06:37,147 | INFO | scrapers.books_scraper | Books page 24: https://books.toscrape.com/catalogue/page-24.html
+2026-10-07 01:06:37,147 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-24.html
+2026-10-07 01:06:37,951 | INFO | scrapers.books_scraper | Books page 25: https://books.toscrape.com/catalogue/page-25.html
+2026-10-07 01:06:37,967 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-25.html
+2026-10-07 01:06:39,073 | INFO | scrapers.books_scraper | Books page 26: https://books.toscrape.com/catalogue/page-26.html
+2026-10-07 01:06:39,073 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-26.html
+2026-10-07 01:06:39,897 | INFO | scrapers.books_scraper | Books page 27: https://books.toscrape.com/catalogue/page-27.html
+2026-10-07 01:06:39,897 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-27.html
+2026-10-07 01:06:41,019 | INFO | scrapers.books_scraper | Books page 28: https://books.toscrape.com/catalogue/page-28.html
+2026-10-07 01:06:41,019 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-28.html
+2026-10-07 01:06:42,098 | INFO | scrapers.books_scraper | Books page 29: https://books.toscrape.com/catalogue/page-29.html
+2026-10-07 01:06:42,098 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-29.html
+2026-10-07 01:06:42,977 | INFO | scrapers.books_scraper | Books page 30: https://books.toscrape.com/catalogue/page-30.html
+2026-10-07 01:06:42,977 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-30.html
+2026-10-07 01:06:43,792 | INFO | scrapers.books_scraper | Books page 31: https://books.toscrape.com/catalogue/page-31.html
+2026-10-07 01:06:43,792 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-31.html
+2026-10-07 01:06:44,856 | INFO | scrapers.books_scraper | Books page 32: https://books.toscrape.com/catalogue/page-32.html
+2026-10-07 01:06:44,856 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-32.html
+2026-10-07 01:06:46,041 | INFO | scrapers.books_scraper | Books page 33: https://books.toscrape.com/catalogue/page-33.html
+2026-10-07 01:06:46,043 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-33.html
+2026-10-07 01:06:47,159 | INFO | scrapers.books_scraper | Books page 34: https://books.toscrape.com/catalogue/page-34.html
+2026-10-07 01:06:47,159 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-34.html
+2026-10-07 01:06:48,296 | INFO | scrapers.books_scraper | Books page 35: https://books.toscrape.com/catalogue/page-35.html
+2026-10-07 01:06:48,296 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-35.html
+2026-10-07 01:06:49,113 | INFO | scrapers.books_scraper | Books page 36: https://books.toscrape.com/catalogue/page-36.html
+2026-10-07 01:06:49,113 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-36.html
+2026-10-07 01:06:49,940 | INFO | scrapers.books_scraper | Books page 37: https://books.toscrape.com/catalogue/page-37.html
+2026-10-07 01:06:49,940 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-37.html
+2026-10-07 01:06:50,769 | INFO | scrapers.books_scraper | Books page 38: https://books.toscrape.com/catalogue/page-38.html
+2026-10-07 01:06:50,769 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-38.html
+2026-10-07 01:06:51,915 | INFO | scrapers.books_scraper | Books page 39: https://books.toscrape.com/catalogue/page-39.html
+2026-10-07 01:06:51,915 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-39.html
+2026-10-07 01:06:52,789 | INFO | scrapers.books_scraper | Books page 40: https://books.toscrape.com/catalogue/page-40.html
+2026-10-07 01:06:52,789 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-40.html
+2026-10-07 01:06:53,917 | INFO | scrapers.books_scraper | Books page 41: https://books.toscrape.com/catalogue/page-41.html
+2026-10-07 01:06:53,917 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-41.html
+2026-10-07 01:06:55,044 | INFO | scrapers.books_scraper | Books page 42: https://books.toscrape.com/catalogue/page-42.html
+2026-10-07 01:06:55,044 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-42.html
+2026-10-07 01:06:55,868 | INFO | scrapers.books_scraper | Books page 43: https://books.toscrape.com/catalogue/page-43.html
+2026-10-07 01:06:55,868 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-43.html
+2026-10-07 01:06:56,693 | INFO | scrapers.books_scraper | Books page 44: https://books.toscrape.com/catalogue/page-44.html
+2026-10-07 01:06:56,693 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-44.html
+2026-10-07 01:06:57,510 | INFO | scrapers.books_scraper | Books page 45: https://books.toscrape.com/catalogue/page-45.html
+2026-10-07 01:06:57,510 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-45.html
+2026-10-07 01:06:58,626 | INFO | scrapers.books_scraper | Books page 46: https://books.toscrape.com/catalogue/page-46.html
+2026-10-07 01:06:58,626 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-46.html
+2026-10-07 01:06:59,764 | INFO | scrapers.books_scraper | Books page 47: https://books.toscrape.com/catalogue/page-47.html
+2026-10-07 01:06:59,766 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-47.html
+2026-10-07 01:07:00,586 | INFO | scrapers.books_scraper | Books page 48: https://books.toscrape.com/catalogue/page-48.html
+2026-10-07 01:07:00,586 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-48.html
+2026-10-07 01:07:01,394 | INFO | scrapers.books_scraper | Books page 49: https://books.toscrape.com/catalogue/page-49.html
+2026-10-07 01:07:01,394 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-49.html
+2026-10-07 01:07:02,222 | INFO | scrapers.books_scraper | Books page 50: https://books.toscrape.com/catalogue/page-50.html
+2026-10-07 01:07:02,222 | INFO | scrapers.base_scraper | Request: https://books.toscrape.com/catalogue/page-50.html
+2026-10-07 01:07:03,042 | INFO | scrapers.books_scraper | Books raw records: 1000
+2026-10-07 01:07:03,057 | INFO | scrapers.quotes_scraper | Quotes page 1: https://quotes.toscrape.com/
+2026-10-07 01:07:03,057 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/
+2026-10-07 01:07:05,173 | INFO | scrapers.quotes_scraper | Quotes page 2: https://quotes.toscrape.com/page/2/
+2026-10-07 01:07:05,175 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/page/2/
+2026-10-07 01:07:05,984 | INFO | scrapers.quotes_scraper | Quotes page 3: https://quotes.toscrape.com/page/3/
+2026-10-07 01:07:05,984 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/page/3/
+2026-10-07 01:07:06,809 | INFO | scrapers.quotes_scraper | Quotes page 4: https://quotes.toscrape.com/page/4/
+2026-10-07 01:07:06,809 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/page/4/
+2026-10-07 01:07:07,634 | INFO | scrapers.quotes_scraper | Quotes page 5: https://quotes.toscrape.com/page/5/
+2026-10-07 01:07:07,634 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/page/5/
+2026-10-07 01:07:08,450 | INFO | scrapers.quotes_scraper | Quotes page 6: https://quotes.toscrape.com/page/6/
+2026-10-07 01:07:08,450 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/page/6/
+2026-10-07 01:07:09,273 | INFO | scrapers.quotes_scraper | Quotes page 7: https://quotes.toscrape.com/page/7/
+2026-10-07 01:07:09,273 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/page/7/
+2026-10-07 01:07:10,096 | INFO | scrapers.quotes_scraper | Quotes page 8: https://quotes.toscrape.com/page/8/
+2026-10-07 01:07:10,096 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/page/8/
+2026-10-07 01:07:10,913 | INFO | scrapers.quotes_scraper | Quotes page 9: https://quotes.toscrape.com/page/9/
+2026-10-07 01:07:10,913 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/page/9/
+2026-10-07 01:07:11,729 | INFO | scrapers.quotes_scraper | Quotes page 10: https://quotes.toscrape.com/page/10/
+2026-10-07 01:07:11,729 | INFO | scrapers.base_scraper | Request: https://quotes.toscrape.com/page/10/
+2026-10-07 01:07:12,553 | INFO | scrapers.quotes_scraper | Quotes raw records: 100
+2026-10-07 01:07:12,576 | INFO | root | Final records: 1099
+2026-10-07 01:07:12,578 | INFO | root | Duplicates removed: 1
+2026-10-07 01:07:12,578 | INFO | root | Output CSV: C:\Users\User\Downloads\realisieren_scraping_assignment\realisieren_scraping_assignment\output\final_dataset.csv
+2026-10-07 01:07:12,578 | INFO | root | Summary JSON: C:\Users\User\Downloads\realisieren_scraping_assignment\realisieren_scraping_assignment\output\summary_report.json
